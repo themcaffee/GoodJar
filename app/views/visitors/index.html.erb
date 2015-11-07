@@ -1,2 +1,31 @@
-<h3>Welcome</h3>
-<p><%= link_to 'Users:', users_path %> <%= User.count %> registered</p>
+<!-- Image Background Page Header -->
+<!-- Note: The background image is set within the business-casual.css file. -->
+<header class="business-header" style="background: url('<%= full_image_path('header_logo.png')%>') center center no-repeat scroll;">
+</header>
+<h3 class="text-center">Store good things that happened today and we'll remind you every week.</h3>
+<div class="text-center">
+    <%= link_to 'Get Started', new_user_registration_path, class: 'btn btn-info navbar-btn white-text' %>
+</div>
+<!-- Page Content -->
+<div class="container">
+
+  <hr>
+
+  <div class="row">
+    <div class="col-sm-4">
+      <img class="img-circle img-responsive img-center" src="http://placehold.it/300x300" alt="">
+      <h2>Marketing Box #1</h2>
+      <p>These marketing boxes are a great place to put some information. These can contain summaries of what the company does, promotional information, or anything else that is relevant to the company. These will usually be below-the-fold.</p>
+    </div>
+    <div class="col-sm-4">
+      <img class="img-circle img-responsive img-center" src="http://placehold.it/300x300" alt="">
+      <h2>Marketing Box #2</h2>
+      <p>The images are set to be circular and responsive. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+    </div>
+    <div class="col-sm-4">
+      <img class="img-circle img-responsive img-center" src="http://placehold.it/300x300" alt="">
+      <h2>Marketing Box #3</h2>
+      <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+    </div>
+  </div>
+  <!-- /.row -->
