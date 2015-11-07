@@ -1,19 +1,24 @@
 <div class="row box-shadow" id="jar-input">
     <br>
     <div class="col-md-offset-3 col-sm-offset-3 col-xs-offset-3 col-md-6 col-sm-6 col-xs-6">
-        <%= image_tag "jar.png" %>
-      <br>
-        <div id="timer-box" class="row">
-          <h4 class="text-center" style="color:#FFFFFF;">
-            Opening the Jar in:
-          </h4>
-          <div id="timer">
-          </div>
+      <div id="timer-box" class="row">
+        <h4 class="text-center" style="color:#FFFFFF;">
+          Opening the Jar in:
+        </h4>
+        <div id="timer">
         </div>
-
-
+      </div>
+      <br>
+        <div class="image">
+            <%= image_tag "jar.png" %>
+            <div class="text-center">
+                <h3 id="jar-count">(<%= @number_in_jar %>)</h3>
+            </div>
+        </div>
         <br>
-        <%= render 'form' %>
+        <div id="post-box">
+            <%= render 'form' %>
+        </div>
     </div>
 </div>
 

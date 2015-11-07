@@ -8,6 +8,7 @@ class PostsController < ApplicationController
     # Find the posts that are older than a week old and belong to this user
     @user = current_user
     @posts = @user.posts().where("created_at < (?)", Date.today.beginning_of_week)
+    @number_in_jar = @user.posts().where("created_at >= (?)", Date.today.beginning_of_week).count
     @post = Post.new
   end
 

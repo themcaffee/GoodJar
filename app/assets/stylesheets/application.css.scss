@@ -78,10 +78,39 @@ textarea.vert { resize:vertical; }
   box-shadow: 0px 4px 5px -1px rgba(0,0,0,0.75);
 }
 
-#timer {
-
+#post-box {
+  border-radius: 25px;
+  background-color: #6A6E5A;
+  padding-right: 100px;
+  padding-left: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #FFFFFF;
+  -webkit-box-shadow: 0px 4px 5px -1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 4px 5px -1px rgba(0,0,0,0.75);
+  box-shadow: 0px 4px 5px -1px rgba(0,0,0,0.75);
 }
 
 .input-background {
-
+  color: #FFFFFF;
 }
+
+.image {
+  position: relative;
+  width: 100%; /* for IE 6 */
+}
+
+#jar-count {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: 100px;
+}
+
+::-webkit-input-placeholder { color:#999; }
+::-moz-placeholder { color:#999; } /* FF 19+ */
+:-moz-placeholder { color:#999; } /* FF 18- */
+:-ms-input-placeholder { color:#999; }
+.placeholder { color:#999; } /* for the polyfill */
