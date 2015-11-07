@@ -8,13 +8,14 @@
     </div>
 </div>
 
-<% if @user.posts.any? %>
-    <div class="row" id="posts">
-        <h1 class="text-center">Good Things from the Past...</h1>
-        <hr>
-        <%= render @posts %>
-    </div>
-<% end %>
+
+<div class="row" id="posts">
+    <h1 class="text-center">Good Things from the Past...</h1>
+    <hr>
+    <% if !@posts.nil? %>
+      <%= render @posts %>
+    <% end %>
+</div>
 
 <script>
     pureJSTimer({
