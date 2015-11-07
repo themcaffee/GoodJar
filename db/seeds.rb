@@ -10,5 +10,9 @@ puts 'CREATED ADMIN USER: ' << user.email
 
 Post.create( content: "Found the coat I thought I lost.", user_id: 1, created_at: "2015-10-30 00:00:00.000000")
 puts 'CREATED POST 1'
-Post.create( content: "Got a complement on my hat.", user_id: 1, created_at: "2015-10-30 00:00:00.000000")
+Post.create( content: "Got a complement on my hat.", user_id: 1, created_at: "2015-10-29 00:00:00.000000")
 puts 'CREATED POST 2'
+Post.create( content: "Narrowly avoided my sudden death.", user_id: 1, created_at: "2015-10-28 00:00:00.000000")
+puts 'CREATED POST 3'
+Post.create( content: "Finished my math assignment on time.", user_id: 1, created_at: "2015-10-27 00:00:00.000000")
+puts 'CREATED POST 4'
