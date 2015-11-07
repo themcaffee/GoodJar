@@ -68,23 +68,25 @@ textarea.vert { resize:vertical; }
 }
 
 #timer-box {
-  border-radius: 25px;
-  background-color: #78CC7E;
+  //border-radius: 25px;
+  //background-color: #78CC7E;
   color: #FFFFFF;
+  /*
   margin-left: 120px;
   margin-right: 120px;
   -webkit-box-shadow: 0px 4px 5px -1px rgba(0,0,0,0.75);
   -moz-box-shadow: 0px 4px 5px -1px rgba(0,0,0,0.75);
   box-shadow: 0px 4px 5px -1px rgba(0,0,0,0.75);
+  */
 }
 
 #post-box {
-  border-radius: 25px;
+  //border-radius: 25px;
   background-color: #6A6E5A;
-  padding-right: 100px;
-  padding-left: 100px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-right: 70px;
+  padding-left: 70px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   color: #FFFFFF;
   -webkit-box-shadow: 0px 4px 5px -1px rgba(0,0,0,0.75);
   -moz-box-shadow: 0px 4px 5px -1px rgba(0,0,0,0.75);
@@ -107,6 +109,7 @@ textarea.vert { resize:vertical; }
   left: 0;
   right: 0;
   top: 100px;
+  color: #000000;
 }
 
 ::-webkit-input-placeholder { color:#999; }
