@@ -1,6 +1,7 @@
 <!-- Image Background Page Header -->
 <!-- Note: The background image is set within the business-casual.css file. -->
-<header class="business-header" style="background: url('<%= full_image_path('header_logo.png')%>') center center no-repeat scroll;">
+<header class="business-header" style="background: url('<%= full_image_path('jar.jpg')%>') center center no-repeat scroll;">
+  <h1 class="text-center jar-title">Remember the Positive</h1>
 </header>
 <h3 class="text-center">Store good things that happened today and we'll remind you every week.</h3>
 <div class="text-center">
@@ -12,20 +13,21 @@
   <hr>
 
   <div class="row">
-    <div class="col-sm-4">
-      <img class="img-circle img-responsive img-center" src="http://placehold.it/300x300" alt="">
-      <h2>Marketing Box #1</h2>
-      <p>These marketing boxes are a great place to put some information. These can contain summaries of what the company does, promotional information, or anything else that is relevant to the company. These will usually be below-the-fold.</p>
+    <div class="col-sm-6">
+      <%= image_tag "head.png", class: "img-responsive img-center" %>
+      <!-- <img class="img-circle img-responsive img-center" src="http://placehold.it/300x300" alt=""> -->
+      <h2>Mind</h2>
+      <p>
+        By focusing on the positive you experience greater motivation overall. This leads to reduced rates of depression
+        and a better mind.
+      </p>
     </div>
-    <div class="col-sm-4">
-      <img class="img-circle img-responsive img-center" src="http://placehold.it/300x300" alt="">
-      <h2>Marketing Box #2</h2>
-      <p>The images are set to be circular and responsive. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
-    </div>
-    <div class="col-sm-4">
-      <img class="img-circle img-responsive img-center" src="http://placehold.it/300x300" alt="">
-      <h2>Marketing Box #3</h2>
-      <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+    <div class="col-sm-6">
+      <%= image_tag "health.png", class: "img-responsive img-center" %>
+      <h2>Body</h2>
+      <p>
+        Positive thinking combats negative stresses which is behind more than <a href="https://www.rt.com/usa/231879-job-stress-killing-americans/">120,000 American deaths <b>per year.</b></a>
+      </p>
     </div>
   </div>
   <!-- /.row -->

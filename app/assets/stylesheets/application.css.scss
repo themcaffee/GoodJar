@@ -23,7 +23,7 @@ textarea.vert { resize:vertical; }
 
 #jar-input {
   background-color: cadetblue;
-  padding-top: 30px;
+  padding-top: 10px;
   padding-bottom: 20px;
   margin-bottom: 20px;
   -webkit-box-shadow: 0 4px 4px -2px #000000;
@@ -47,4 +47,10 @@ textarea.vert { resize:vertical; }
 
 .btn {
   color: #FFFFFF;
+}
+
+.jar-title {
+  color: #000000;
+  padding-top: 350px;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
