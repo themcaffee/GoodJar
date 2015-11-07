@@ -1,0 +1,30 @@
+.pure-js-timer-days:after { content: "days"; }
+
+.pure-js-timer-hours:after { content: "hours"; }
+
+.pure-js-timer-minutes:after { content: "minutes"; }
+
+.pure-js-timer-seconds:after { content: "seconds"; }
+
+.pure-js-timer-container {
+  margin-bottom: 30px;
+  padding-bottom: 16px;
+  text-align: center;
+}
+
+.pure-js-timer-unit {
+  display: inline-block;
+  font-size: 24px;
+  font-weight: 700;
+  position: relative;
+  width: 150px;
+}
+
+.pure-js-timer-unit:after {
+  bottom: -16px;
+  font-size: 16px;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}

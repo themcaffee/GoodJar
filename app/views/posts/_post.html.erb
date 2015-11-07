@@ -2,10 +2,13 @@
   <div class="card" id="post-<%= post.id %>">
     <div class="card-content">
       <%= post.content %>
+      <br>
     </div>
     <div class="card-action">
-      <a href="#">Edit</a>
-      <a href="#">Delete</a>
+      <%= link_to "Delete", post, :method => :delete, :confirm => "You sure?" %>
+      <span class="pull-right">
+        <i><%= time_ago_in_words(post.created_at) %> ago</i>
+      </span>
     </div>
   </div>
 </div>

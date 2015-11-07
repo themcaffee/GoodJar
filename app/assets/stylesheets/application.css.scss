@@ -18,10 +18,29 @@ textarea.vert { resize:vertical; }
 
 #posts {
   padding-bottom: 10px;
+  font-family: 'Raleway', sans-serif;
 }
 
 #jar-input {
   background-color: cadetblue;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  -webkit-box-shadow: 0 4px 4px -2px #000000;
+  -moz-box-shadow: 0 4px 4px -2px #000000;
+  box-shadow: 0 4px 4px -2px #000000;
+}
+
+#message {
+  background-color: cadetblue;
+  padding-top: 30px;
+
+}
+
+.margin-10 {
+  margin-right: 10px;
+}
+
+.white-text {
+  color: #FFFFFF;
 }

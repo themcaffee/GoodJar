@@ -1,6 +1,8 @@
-<div class="row" id="jar-input">
+<div class="row box-shadow" id="jar-input">
     <div class="col-md-offset-3 col-sm-offset-3 col-xs-offset-3 col-md-6 col-sm-6 col-xs-6">
         <%= image_tag "jar.jpg" %>
+        <div id="timer">
+        </div>
         <br>
         <%= render 'form' %>
     </div>
@@ -8,6 +10,21 @@
 
 <% if @user.posts.any? %>
     <div class="row" id="posts">
+        <h1 class="text-center">Good Things from the Past...</h1>
+        <hr>
         <%= render @posts %>
     </div>
 <% end %>
+
+<script>
+    pureJSTimer({
+        container  : '#timer',
+        endDate    : '2015 november 9',
+        afterUpdate: function(startDate, endDate, currentDate) {
+            //
+        },
+        onFinish   : function(startDate, endDate) {
+            //
+        }
+    });
+</script>

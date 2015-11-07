@@ -7,7 +7,7 @@ class PostsController < ApplicationController
   def index
     # Find the posts that are older than a week old and belong to this user
     @user = current_user
-    @posts = @user.posts()
+    @posts = @user.posts().where("created_at < (?)", Date.today.beginning_of_week)
     @post = Post.new
   end
 
@@ -34,7 +34,7 @@ class PostsController < ApplicationController
 
     respond_to do |format|
       if @post.save
-        format.html { redirect_to @post, notice: 'Post was successfully created.' }
+        format.html { redirect_to :posts, notice: 'Successfully added to Jar.' }
         format.json { render :show, status: :created, location: @post }
       else
         format.html { render :index }
@@ -62,7 +62,7 @@ class PostsController < ApplicationController
   def destroy
     @post.destroy
     respond_to do |format|
-      format.html { redirect_to posts_url, notice: 'Post was successfully destroyed.' }
+      format.html { redirect_to posts_url, notice: 'Removed successfully.' }
       format.json { head :no_content }
     end
   end
