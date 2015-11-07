@@ -13,3 +13,15 @@
  *= require_tree .
  *= require_self
  */
+
+textarea.vert { resize:vertical; }
+
+#posts {
+  padding-bottom: 10px;
+}
+
+#jar-input {
+  background-color: cadetblue;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
