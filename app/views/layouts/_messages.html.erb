@@ -1,12 +1,11 @@
 <%# Rails flash messages styled for Bootstrap 3.0 %>
 <% flash.each do |name, msg| %>
-    <div id="message" class="row">
+    <div <% if params[:controller] == "posts" && params[:action] == "index" %>id="message"<% end %> class="row">
       <% if msg.is_a?(String) %>
-            <div class="alert alert-<%= name.to_s == 'notice' ? 'success' : 'danger' %>">
-              <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-              <span class="text-center"><%= content_tag :div, msg, :id => "flash_#{name}" %></span>
-            </div>
-
+        <div class="alert alert-<%= name.to_s == 'notice' ? 'success' : 'danger' %>">
+          <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+          <span class="text-center"><%= content_tag :div, msg, :id => "flash_#{name}" %></span>
+        </div>
       <% end %>
     </div>
 <% end %>
