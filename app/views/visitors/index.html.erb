@@ -12,8 +12,7 @@
   <hr>
   <div class="row">
     <div class="col-sm-6">
-      <%= image_tag "head.png", class: "img-responsive img-center" %>
-      <!-- <img class="img-circle img-responsive img-center" src="http://placehold.it/300x300" alt=""> -->
+      <img class="img-responsive img-center" src="<%= full_image_path('head.png')%>" alt="">
       <h2>Mind</h2>
       <p>
         By focusing on the positive you experience greater motivation overall. This leads to reduced rates of depression
@@ -21,7 +20,7 @@
       </p>
     </div>
     <div class="col-sm-6">
-      <%= image_tag "health.png", class: "img-responsive img-center" %>
+      <img class="img-responsive img-center" src="<%= full_image_path('health.png')%>" alt="">
       <h2>Body</h2>
       <p>
         Positive thinking combats negative stresses which is behind more than <a href="https://www.rt.com/usa/231879-job-stress-killing-americans/">120,000 American deaths <b>per year.</b></a>
