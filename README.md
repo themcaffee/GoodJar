@@ -1,4 +1,4 @@
-Good Jar
+ Positivity Jar / Good Jar
 ===========
 
 ## What is this?
@@ -13,3 +13,7 @@ The site is a little bit buggy and isn't ready to be released to actual users. T
 ## What if I want to build on this?
 
 Go right ahead! Any contributions are very welcomed. If you want to know how to get started to just send me a message. 
+
+## What's with the stupid name?
+
+While this project won most creative, I couldn't come up with any better names. Suggestions welcome. 
