@@ -1,50 +1,15 @@
-Jar
-================
+Good Jar
+===========
 
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+## What is this?
 
-This application was generated with the [rails_apps_composer](https://github.com/RailsApps/rails_apps_composer) gem
-provided by the [RailsApps Project](http://railsapps.github.io/).
+The idea behind this is that whenever something good happens you write it down and put it into a jar. This is usually
+done with a physical jar. On certain time intervals the jar would be opened and the good memories remembered. In this way it helps someone become more of a positive person overall by looking for the positive things rather than the negative. I built this during HackUState to create an easier and more secure way of storing memories. It was built in a day and won the Most Creative award. It saves memories for users and will send out emails containing the list of memories on predefined intervals that I have set up.
 
-Rails Composer is supported by developers who purchase our RailsApps tutorials.
+## What is the status of this?
 
-Problems? Issues?
------------
+The site is a little bit buggy and isn't ready to be released to actual users. The code is a little on the hacky-side (Get it? It was written during a hackathon.) I hope to revitalize this project but am too busy with other obligations currently.
 
-Need help? Ask on Stack Overflow with the tag 'railsapps.'
+## What if I want to build on this?
 
-Your application contains diagnostics in the README file. Please provide a copy of the README file when reporting any issues.
-
-If the application doesn't work as expected, please [report an issue](https://github.com/RailsApps/rails_apps_composer/issues)
-and include the diagnostics.
-
-Ruby on Rails
--------------
-
-This application requires:
-
-- Ruby 2.2.2
-- Rails 4.2.1
-
-Learn more about [Installing Rails](http://railsapps.github.io/installing-rails.html).
-
-Getting Started
----------------
-
-Documentation and Support
--------------------------
-
-Issues
--------------
-
-Similar Projects
-----------------
-
-Contributing
-------------
-
-Credits
--------
-
-License
--------
+Go right ahead! Any contributions are very welcomed. If you want to know how to get started to just send me a message. 
